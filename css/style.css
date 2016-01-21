@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'akzidenz-grotesk_bq_condensBd';
+    src: url('akzidenzgrotesk-boldcondalt-webfont.eot');
+    src: url('akzidenzgrotesk-boldcondalt-webfont.eot?#iefix') format('embedded-opentype'),
+    url('akzidenzgrotesk-boldcondalt-webfont.woff') format('woff'),
+    url('akzidenzgrotesk-boldcondalt-webfont.ttf') format('truetype'),
+    url('akzidenzgrotesk-boldcondalt-webfont.svg#akzidenz-grotesk_bq_condensBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+    font-family: 'akzidenz-grotesk_bq_condensBd';
+}

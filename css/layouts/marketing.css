@@ -34,11 +34,11 @@ label {
  * These are some useful classes which I will need
  */
 .l-box {
-    padding: 1em;
+    padding: 0 1em;
 }
 
 .l-box-lrg {
-    padding: 2em;
+    padding: 1em;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -47,11 +47,7 @@ label {
 }
 
 
-
-/*
- * -- PURE FORM STYLES --
- * Style the form inputs and labels
- */
+/* * -- PURE FORM STYLES -- * Style the form inputs and labels */
 .pure-form label {
     margin: 1em 0 0;
     font-weight: bold;
@@ -190,7 +186,7 @@ a.pure-button-primary {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    margin: 1em 0 1em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -285,7 +281,36 @@ a.pure-button-primary {
 
 
 /* * -- NUEVAS CLASES * */
-.content1 {
+.content1, .content2 {
     background-color: #3C1313;
     color: #FFF;
+}
+
+.content2 {
+    background-image: url(".../img/fondo-about.png");
+    background-repeat: repeat;
+}
+
+@font-face {
+    font-family: 'akzidenz-grotesk_bq_condensBd';
+    src: url('../akzidenzgrotesk-boldcondalt-webfont.eot');
+    src: url('../akzidenzgrotesk-boldcondalt-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../akzidenzgrotesk-boldcondalt-webfont.woff') format('woff'),
+    url('../akzidenzgrotesk-boldcondalt-webfont.ttf') format('truetype'),
+    url('../akzidenzgrotesk-boldcondalt-webfont.svg#akzidenz-grotesk_bq_condensBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+    font-family: 'akzidenz-grotesk_bq_condensBd';
+    font-weight: lighter;
+}
+
+.profile-pic {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 55%;
 }
