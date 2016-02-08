@@ -281,14 +281,19 @@ a.pure-button-primary {
 
 
 /* * -- NUEVAS CLASES * */
-.content1, .content2 {
+.content1, .content3 {
     background-color: #3C1313;
     color: #FFF;
 }
 
-.content2 {
-    background-image: url(".../img/fondo-about.png");
+.content1 {
+    background-image: url("img/fondo-about.png");
     background-repeat: repeat;
+}
+
+.content2 {
+    background-color: #FFF;
+    color: #3C1313;
 }
 
 @font-face {
@@ -313,4 +318,22 @@ h1, h2, h3, h4, h5,
     -moz-border-radius: 50%;
     border-radius: 50%;
     width: 55%;
+}
+
+.content3 h1 {
+    font-size: 2em;
+    color: #FFF;
+}
+
+
+.content3 h2.sub-title {
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FFF;
+    clear: both;
+    width: 98%;
+    font-size: 2.4em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
 }
