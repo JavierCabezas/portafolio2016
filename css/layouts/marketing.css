@@ -137,7 +137,6 @@ a.pure-button-primary {
     color: white;
     border: 3px solid white;
     padding: 1em 1.6em;
-    font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
 }
@@ -180,7 +179,7 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1f8dd6;
+    color: #3C1313;
 }
     .content-subhead i {
         margin-right: 7px;
@@ -270,6 +269,14 @@ we want to over-ride some of the mobile and tablet styles.*/
     background-repeat: repeat;
 }
 
+.content3 h1.content-head {
+    color: #FFF;
+}
+
+.content3 .pure-form label {
+    color: #FFF;
+}
+
 .content1 a, .content3 a {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -322,22 +329,22 @@ h1, h2, h3, h4, h5,
     width: 55%;
 }
 
-.content3 h1 {
+.content2 h1 {
     font-size: 2em;
-    color: #FFF;
+    color: #3C1313;
 }
 
-
-.content3 h2.sub-title {
+.content2 h2.sub-title {
     text-align: left;
     padding-bottom: 20px;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #3C1313;
     clear: both;
     width: 98%;
     font-size: 2.4em;
     margin-left: auto;
     margin-right: auto;
-    color: #FFF;
+    margin-bottom: 20px;
+    color: #3C1313;
 }
 
 .proy_ava {
@@ -353,9 +360,46 @@ h1, h2, h3, h4, h5,
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    -webkit-border: 1px solid #3C1313;
+    -moz-border: 1px solid #3C1313;
+    border: 1px solid #3C1313;
 }
 
 .proy_data {
-    height: 45px;
+    height: 110px;
     line-height: 120%;
+    color: #3C1313;
+    margin-bottom: 30px;
 }
+
+.proy_data p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a.proy-mas {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #3C1313;
+    color: #FFF;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    bottom: 0;
+}
+
+a.proy-mas:hover {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #FFF;
+    color: #3C1313;
+    -webkit-border: 1px solid #3C1313;
+    -moz-border: 1px solid #3C1313;
+    border: 1px solid #3C1313;
+}
+
