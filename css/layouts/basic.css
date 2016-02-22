@@ -18,7 +18,7 @@ a.basic:hover {
     text-decoration: none;
 }
 
-#basic-modal-content {
+.modal_show {
     display: none;
 }
 

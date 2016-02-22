@@ -33,6 +33,7 @@
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/modal.js"></script>
     <script type="text/javascript" src="js/jquery.simplemodal.js"></script>
+    <script type="text/javascript" src="js/llamado_modal.js"></script>
 
 </head>
 <body>
@@ -107,7 +108,7 @@
                 <h2 class="content-subhead">Melko&Partners</h2>
                 <div class="proy_data">
                     <p>Diseño y maquetación de sitio web de microholding.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-melko" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modalMelko.php') ?>
             </div>
@@ -118,7 +119,7 @@
                 <h2 class="content-subhead">TecAgroMed</h2>
                 <div class="proy_data">
                     <p>Diseño y maquetación de sitio web de importadora de productos médicos y agrícolas.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-tam" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modalTecagromed.php') ?>
             </div>
@@ -129,7 +130,7 @@
                 <h2 class="content-subhead">LN Repuestos</h2>
                 <div class="proy_data">
                     <p>Diseño y maquetación de sitio web de tienda de repuestos para automóviles.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-repuestos" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modalRepuestos.php') ?>
             </div>
@@ -140,7 +141,7 @@
                 <h2 class="content-subhead">23ky</h2>
                 <div class="proy_data">
                     <p>Diseño y maquetación de sitio web de microholding.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-23ky" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modal23ky.php') ?>
             </div>
@@ -151,7 +152,7 @@
                 <h2 class="content-subhead">La Nueva Sangre de Voces Femeninas</h2>
                 <div class="proy_data">
                     <p>Diseño y maquetación de sitio web de importadora de productos médicos y agrícolas.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-nuevasangre" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modalNuevasangre.php') ?>
             </div>
@@ -162,7 +163,7 @@
                 <h2 class="content-subhead">Tótem Parque Metropolitano</h2>
                 <div class="proy_data">
                     <p>Diseño y maquetación de sitio web de tienda de repuestos para automóviles.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-pms" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modalTotem.php') ?>
             </div>
@@ -260,20 +261,5 @@
 
     </div>
 </div>
-
-
-<script>
-    jQuery(function ($) {
-        // Load dialog on page load
-        //$('#basic-modal-content').modal();
-
-        // Load dialog on click
-        $('#basic-modal.basic').click(function (e) {
-            $('#basic-modal-content').modal();
-
-            return false;
-        });
-    });
-</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!-- CONTENIDO VENTANA MODAL -->
-<div id="basic-modal-content">
+<div id="content-melko" class="modal_show">
     <h2>Melko&Partners</h2>
     <br>
     <img src="./img/web_proy/melko/melko2_01.png" />
