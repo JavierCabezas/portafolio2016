@@ -178,7 +178,7 @@
                 <h2 class="content-subhead">LN Repuestos</h2>
                 <div class="proy_data">
                     <p>Logotipo de tienda de repuestos para automóviles.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-respuestoslogo" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/corp/_modalRepuestos.php') ?>
             </div>

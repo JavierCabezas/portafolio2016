@@ -22,4 +22,9 @@ jQuery(function ($) {
         $('#content-melko').modal();
         return false;
     });
+
+    $('#basic-modal-respuestoslogo.basic').click(function (e) {
+        $('#content-repuestoslogo').modal();
+        return false;
+    });
 });
