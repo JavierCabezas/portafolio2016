@@ -114,7 +114,7 @@
             </div>
             <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
                 <div class="proy_ava">
-                    <img src="img/web_ava/04_23ky.png" />
+                    <img src="img/web_ava/02_tam.png" />
                 </div>
                 <h2 class="content-subhead">TecAgroMed</h2>
                 <div class="proy_data">
@@ -151,18 +151,18 @@
                 </div>
                 <h2 class="content-subhead">La Nueva Sangre de Voces Femeninas</h2>
                 <div class="proy_data">
-                    <p>Diseño y maquetación de sitio web de importadora de productos médicos y agrícolas.</p>
+                    <p>Diseño y maquetación de sitio web dedicado a una serie de conciertos de bandas de metal lideradas por mujeres.</p>
                     <a id="basic-modal-nuevasangre" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modalNuevasangre.php') ?>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
                 <div class="proy_ava">
-                    <img src="img/web_ava/04_23ky.png" />
+                    <img src="img/web_ava/06_pms.png" />
                 </div>
                 <h2 class="content-subhead">Tótem Parque Metropolitano</h2>
                 <div class="proy_data">
-                    <p>Diseño y maquetación de sitio web de tienda de repuestos para automóviles.</p>
+                    <p>Diseño (en coolaboración con el equipo del parque) y maquetación de tótem informativo dirigido a visitantes y turistas.</p>
                     <a id="basic-modal-pms" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modalTotem.php') ?>

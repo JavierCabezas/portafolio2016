@@ -79,7 +79,7 @@ a.basic:hover {
     font-size: 3em;
 }
 
-#basic-modal-content img {
+.modal_show img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
