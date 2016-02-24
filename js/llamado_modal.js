@@ -18,13 +18,38 @@ jQuery(function ($) {
         return false;
     });
 
-    $('#basic-modal-melko.basic').click(function (e) {
-        $('#content-melko').modal();
+    $('#basic-modal-23ky.basic').click(function (e) {
+        $('#content-23ky').modal();
+        return false;
+    });
+
+    $('#basic-modal-nuevasangre.basic').click(function (e) {
+        $('#content-nuevasangre').modal();
         return false;
     });
 
     $('#basic-modal-respuestoslogo.basic').click(function (e) {
         $('#content-repuestoslogo').modal();
+        return false;
+    });
+
+    $('#basic-modal-veronikalogo.basic').click(function (e) {
+        $('#content-veronikalogo').modal();
+        return false;
+    });
+
+    $('#basic-modal-devvalley.basic').click(function (e) {
+        $('#content-devvalley').modal();
+        return false;
+    });
+
+    $('#basic-modal-ferroviario.basic').click(function (e) {
+        $('#content-ferroviario').modal();
+        return false;
+    });
+
+    $('#basic-modal-homedeco.basic').click(function (e) {
+        $('#content-homedeco').modal();
         return false;
     });
 });

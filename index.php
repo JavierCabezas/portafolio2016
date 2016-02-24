@@ -69,31 +69,19 @@
             <p>Mi nombre es Fernanda, soy oriunda de Osorno y residente en Santiago. Diseñadora gráfica titulada de la Universidad de Chile.
                 Mis áreas favoritas son el diseño web, la arquitectura de información y UX/UI.<br>
                 En mis tiempos libres me dedico dibujar, leer, jugar videojuegos y ver series animadas.</p>
+            <br>
             <p><a href="http://fermotousan.cl/fernanda-kauak-cv.pdf">Lee mi CV aquí</a></p>
+            <br>
+            <div class="habilidades">
+                <h2 class="content-head is-center">Mis habilidades</h2>
+                <h3>Diseño centrado en el usuario</h3>
+                <h3>Usabilidad y diseño de interfaces responsivas</h3>
+                <h3>Trabajo en equipo</h3>
+                <h3>Proactividad</h3>
+            </div>
+
         </div>
     </div>
-
-    <!--<div class="content content2">
-        <h2 class="content-head is-center">Mis habilidades</h2>
-
-        <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
-
-                <h2 class="content-subhead">Diseño centrado en el usuario</h2>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
-                <h2 class="content-subhead">Añadir otra cuestión</h2>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
-                <h2 class="content-subhead">Trabajo en equipo</h2>
-                <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                </p>
-            </div>
-        </div>
-    </div>-->
 
     <a name="trabajos"></a>
     <div class="content content2">
@@ -140,7 +128,7 @@
                 </div>
                 <h2 class="content-subhead">23ky</h2>
                 <div class="proy_data">
-                    <p>Diseño y maquetación de sitio web de microholding.</p>
+                    <p>Diseño y maquetación de sitio web de servicios de mantención de hardware.</p>
                     <a id="basic-modal-23ky" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/web/_modal23ky.php') ?>
@@ -173,7 +161,7 @@
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
                 <div class="proy_ava">
-                    <img src="img/web_ava/04_23ky.png" />
+                    <img src="img/corp_ava/01_lnlogo.png" />
                 </div>
                 <h2 class="content-subhead">LN Repuestos</h2>
                 <div class="proy_data">
@@ -189,18 +177,18 @@
                 <h2 class="content-subhead">Veronika's HomeDeco</h2>
                 <div class="proy_data">
                     <p>Logotipo de tienda de productos provenientes de Turquía.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-veronikalogo" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/corp/_modalVeronika.php') ?>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
                 <div class="proy_ava">
-                    <img src="img/web_ava/04_23ky.png" />
+                    <img src="img/corp_ava/03_devvalley.png" />
                 </div>
                 <h2 class="content-subhead">DevValley</h2>
                 <div class="proy_data">
                     <p>Logotipo de tienda de repuestos para automóviles.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <a id="basic-modal-devvalley" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/corp/_modalDevvalley.php') ?>
             </div>
@@ -214,19 +202,20 @@
                 </div>
                 <h2 class="content-subhead">Asociación Conservación de Patrimonio Ferroviario</h2>
                 <div class="proy_data">
-                    <p>Material para Día del Patrimonio Cultural, año 2014.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <p>Material para la muestra de la asociación, hecha el Día del Patrimonio Cultural,
+                        edición 2014.</p>
+                    <a id="basic-modal-ferroviario" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/otros/_modalFerroviario.php') ?>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1-3">
                 <div class="proy_ava">
-                    <img src="img/web_ava/04_23ky.png" />
+                    <img src="img/otros_ava/02_homedeco.png" />
                 </div>
                 <h2 class="content-subhead">Veronika's HomeDeco</h2>
                 <div class="proy_data">
-                    <p>Logotipo de tienda de productos provenientes de Turquía.</p>
-                    <a id="basic-modal" class="proy-mas basic" href="#">Ver más</a>
+                    <p>Etiquetas para productos y letrero ubicado afuera de la tienda.</p>
+                    <a id="basic-modal-homedeco" class="proy-mas basic" href="#">Ver más</a>
                 </div>
                 <?php include('./partials/otros/_modalVeronika.php') ?>
             </div>

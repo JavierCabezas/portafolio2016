@@ -403,3 +403,21 @@ a.proy-mas:hover {
     border: 1px solid #3C1313;
 }
 
+.habilidades {
+    width: 50%;
+    color: #FFF;
+    height: auto;
+}
+
+.habilidades h3 {
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+.habilidades h2 {
+    margin-bottom: 5px;
+    color: #FFF;
+    width: auto;
+    float: left;
+    padding: 10px;
+}
