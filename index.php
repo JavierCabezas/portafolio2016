@@ -52,6 +52,7 @@
 <div class="splash-container">
     <div class="splash">
         <img src="img/logo.png" />
+        <h1>Diseñadora Gráfica</h1>
         <!--<p class="splash-subhead"></p>
         <p><a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a></p>-->
     </div>
