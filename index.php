@@ -230,21 +230,22 @@
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5" style="margin-left:28%;margin-right:auto;">
-                <form class="pure-form pure-form-stacked">
-                    <fieldset>
+                <form class="pure-form" action="contacto.php" method="POST">
 
-                        <label for="name">Nombre</label>
-                        <input id="name" type="text" placeholder="Nombre">
-
-
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" placeholder="E-mail">
-
-                        <label for="password">Mensaje</label>
-                        <input id="password" type="password" placeholder="Mensaje">
-
-                        <button type="submit" class="pure-button">Enviar</button>
+                    <fieldset class="pure-group">
+                        <label for="name" > Nombre </label>
+                        <input class="pure-input-1-2" name='name' type="text" placeholder="Nombre">
+                        <label for="name" > Tu correo electrónico </label>
+                        <input class="pure-input-1-2" name='email' type="email" placeholder="E-mail">
                     </fieldset>
+
+                    <fieldset class="pure-group">
+
+                        <label for="name" > Tu mensaje </label>
+                        <textarea class="pure-input-1-2" placeholder="Mensaje" name="mensaje"></textarea>
+                    </fieldset>
+                    <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Enviar</button>
+
                 </form>
             </div>
         </div>
